@@ -1,0 +1,246 @@
+
+.body {
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background-color: #D9B010;
+}
+
+.navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: 800;
+    color: #000;
+}
+
+#navbarSupportedContent a{
+    color: #000;
+    border-bottom: 2px solid transparent;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.card {
+    background-color:#000;
+    border:5px solid #D9B010;
+    border-radius: 15px;
+}
+
+#name {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.card-body h5{
+    color: #FFFF00;
+}
+
+.card-body p{
+    color: #FFFF00;
+}
+
+.card {
+    color: whitesmoke;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background: #000;
+}
+#bout{
+    background: #000;
+}
+
+#bout h5{
+    color: #FFFF00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#bout p{
+    color: #FFF;
+}
+
+#about {
+    margin-top: 30px;
+}
+
+#buttons {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+}
+
+#kill{
+    background-image: url(/Assets/Images/bcy.png);
+}
+
+#kill h1{
+    color: #FFFF00;
+}
+
+#kill h2{
+    color: #000;
+    font-size: 50px;
+}
+
+
+#HTML {
+    color: #FFFF00;
+    font-size: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    font-weight: 500;
+}
+
+#CSS {
+    color: rgb(27, 26, 26);
+    font-size: 50px;
+    border: 2px solid black ;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    font-weight: 500;
+}
+
+#JS {
+    color: #000;
+    font-size: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    font-weight: 500;
+}
+
+.btn {
+    margin-bottom: 50px;
+}
+
+#bold {
+    margin-top: -50px;
+    color: #FFFF00;
+}
+
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+#tagicon {
+    display: flex;
+    justify-content: end;
+}
+
+#page3 {
+   background-image:url(Assets/Images/bcy.png)
+}
+
+#reer {
+    background-image: url(Assets/Images/bcy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#career h1 {
+    color: #D9B010;
+    font-size: 100px;
+    font-weight:600;
+    margin-top: -20px;
+}
+
+#jet{
+    background-image: url(/Assets/Images/bcy1.png);
+}
+
+#jet h1{
+    font-size: 100px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+   
+}
+
+#reer h5{
+    color: #000;
+}
+
+#reer p{
+    color: #000;
+}
+.smlinks {
+    
+    display: flex;
+    justify-content: center;
+    justify-items: auto;
+    justify-content:space-around;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.smlinks a{
+    color: #D9B010;
+}
+
+.navbar li:hover{
+   
+    font-style: italic;
+    font-size: 20px;
+     border-radius: 15px;
+     
+ }
+
+ #tact{
+    background: #000;
+    background-size: cover;
+    
+ }
+/* Media Query */
+
+@media only screen and (max-width:400px){
+#sapic {
+    height: 300px!important;
+    
+
+}
+}
+
+@media only screen and (max-width:300px){
+    #careername {
+        font-size: 75px !important;
+    
+    }
+    }
+
+   
